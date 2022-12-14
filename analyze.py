@@ -46,12 +46,16 @@ plt.show()
 # %%
 fig , ax1 = plt.subplots()
 ax2= ax1.twinx()
-ax1.plot(df1.Date, df1["Cumulative energy use estimate"], color='blue')
-ax2.plot(df1.Date, df1["Cumulative renewable energy purchases"], color='green')
+ax1.plot(df1.Date, df1["Cumulative energy use estimate"], color='blue', label="Energy use")
+ax2.plot(df1.Date, df1["Cumulative renewable energy purchases"], color='green', label="Renewable energy purchases")
 ax2.set_ylim([0,2500000000])
 ax1.set_ylim([0,2500000000])
 
 ax1.set_xlabel('Date')
+ax1.legend()
+ax2.legend()
+
+plt.title("Total energy use vs renewable energy purchase")
 plt.xticks([df1['Date'][0], df1['Date'][len(df1['Date']) - 1]])
 plt.show()
 #%%
@@ -62,6 +66,8 @@ ax1.plot(df1.Date,  df1["Cumulative renewable energy purchases"] / df1["Cumulati
 ax1.set_ylim([0,2])
 
 ax1.set_xlabel('Date')
+plt.title("Share of renewable energy")
+
 plt.xticks([df1['Date'][0], df1['Date'][len(df1['Date']) - 1]])
 plt.show()
 #energy used to seal data
