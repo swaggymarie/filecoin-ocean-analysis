@@ -7,9 +7,9 @@
 ### Analyze the evolution of the share of renewable energy used by Filecoin
 ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/totalEnergy_RenewableEnergy.png) ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Share_RenewableEnergy.png)
 
-<div style="display:flex">
+<div style="display:flex, flex-direction:row">
      <div style="flex:1;padding-right:10px;">
-          <img src="images/totalEnergy_RenewableEnergy.png" width="200"/>
+          <img src="images/totalEnergy_RenewableEnergy.png" width="300"/>
      </div>
      <div style="flex:1;padding-left:10px;">
           <img src="images/Share_RenewableEnergy.png" width="300"/>
