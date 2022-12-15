@@ -33,7 +33,6 @@
           <div>Pearson correlation (linear): 0.5836671865917777</div>
           <div>Spearman correlation (non linear): 0.7209322840753908</div>
           <div>This show a high correlation</div>
-          
      </div>
 </div>
 
