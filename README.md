@@ -2,10 +2,10 @@
 
 ## Global analysis
 ### Analyze the energy performance and the evolution of Filecoin's storage
-![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/DataStorageCapacity_EnergyConsumption.png=20%x)
+![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/DataStorageCapacity_EnergyConsumption.png)
 
 ### Analyze the evolution of the share of renewable energy used by Filecoin
-![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/totalEnergy_RenewableEnergy.png) ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Share_RenewableEnergy.png)
+![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/totalEnergy_RenewableEnergy.png =20%x) ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Share_RenewableEnergy.png)
 
 
 ## Correlation
