@@ -3,7 +3,7 @@
 <h2>Global analysis </h2>
 <h3>Energy performance and the evolution of Filecoin's storage </h3>
 <div style='display:flex; flex-direction: row'>
-     <img src="images/DataStorageCapacity_EnergyConsumption.png" width="400"/>
+     <img src="images/DataStorageCapacity_EnergyConsumption.png" width="300"/>
      <div>This graph suggests the data storage capacity always increased since filecoin launched. The energy consumption rate was following the storage capacity in the first place but stoped evolving. This means that filecoin is getting more efficient to store data! </div>
 </div>
 
