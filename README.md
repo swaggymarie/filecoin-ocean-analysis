@@ -16,15 +16,33 @@
 </div>
 <h2>Correlation</h2>
 <h3>Between the energy used to seal the filecoin data and the price of the $FIL token </h3>
-
-![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Price_EnergyUsedToSeal.png)
+<div style='display:flex; flex-direction: row'>
+     <img src="images/Price_EnergyUsedToSeal.png" width="400"/>
+     <div style='display:flex; align-items: start'>
+          <div>Pearson correlation (linear): 0.5836671865903877</div>
+          <div>Spearman correlation (non linear): 0.7209322840753908</div>
+     </div>
+</div>
 
 <h3>Between the capacity of storage added per day in the Filecoin network and the price of the $FIL token </h3>
-![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Price_StorageAddedPerDay.png)
+<div style='display:flex; flex-direction: row'>
+     <img src="images/Price_StorageAddedPerDay.png" width="400"/>
+     <div style='display:flex; align-items: start'>
+          <div>Pearson correlation (linear): 0.5836671865917777</div>
+          <div>Spearman correlation (non linear): 0.7209322840753908</div>
+     </div>
+</div>
+
 
 <h3>Between the energy consumption rate of the Filecoin network and the $FIL token price </h3>
-![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Price_EnergyConsuptionRate.png)
-### Analysis
+<div style='display:flex; flex-direction: row'>
+     <img src="images/Price_EnergyConsuptionRate.png" width="400"/>
+     <div style='display:flex; align-items: start'>
+          <div>Pearson correlation (linear):-0.39090893851807507</div>
+          <div>Spearman correlation (non linear):-0.5233192039536365</div>
+     </div>
+</div>                                               
+<h3>Conclusion of the correlations</h3>
 
 ## Algorithm
 
