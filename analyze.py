@@ -19,13 +19,15 @@ df = df.loc[(df['Date'] >= start_date) & (df['Date'] <= end_date)]
 # %%
 fig , ax1 = plt.subplots()
 ax2= ax1.twinx()
-ax1.plot(df1.Date, df1["Data storage capacity"], color='blue')
-ax2.plot(df1.Date, df1["Energy consumption rate estimate"], color='green')
+ax1.plot(df1.Date, df1["Data storage capacity"], color='blue', label="Data storage capacity")
+ax2.plot(df1.Date, df1["Energy consumption rate estimate"], color='green', label="Energy consumption")
 ax2.set_ylim([0,400000])
-
+ax1.legend()
+ax2.legend()
 
 r = stats.pearsonr(df1['Data storage capacity'], df1['Energy consumption rate estimate'])
 print(r[0])
+plt.title("Data storage capacity and energy consumption rate")
 
 plt.xticks([df1['Date'][0], df1['Date'][len(df1['Date']) - 1]])
 plt.show()
