@@ -14,7 +14,7 @@
      <img style="padding-left:10px;" src="images/Share_RenewableEnergy.png" width="200"/>
 </div>
 <div>This shows that a huge part of the energy used is renewable (almost never under 50%), with a mean of 119.7482121194972%. The question is what is made with the energy purchased but not used ? </div>
-<div>We can observe that Filecoin seams to tend to be almost 100% renewable, even though we see the ratio of renewable is slightly decreasing at the end of this period.</div>
+<div>We can observe that Filecoin seams to tend to be almost 100% renewable, even though we see the ratio of renewable is increasing more slowly at the end of this period.</div>
 <h2>Correlation</h2>
 <h3>Between the energy used to seal the filecoin data and the price of the $FIL token </h3>
 <div style='display:flex; flex-direction: row'>
