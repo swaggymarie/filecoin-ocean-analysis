@@ -1,11 +1,10 @@
-# filecoin-ocean-analysis
+<h1>filecoin-ocean-analysis</h1>
 
-## Global analysis
-### Analyze the energy performance and the evolution of Filecoin's storage
-![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/DataStorageCapacity_EnergyConsumption.png)
+<h2>Global analysis </h2>
+<h3>Energy performance and the evolution of Filecoin's storage </h3>
+<img src="images/DataStorageCapacity_EnergyConsumption.png" width="350"/>
 
-### Analyze the evolution of the share of renewable energy used by Filecoin
-![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/totalEnergy_RenewableEnergy.png) ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Share_RenewableEnergy.png)
+<h3>Evolution of the share of renewable energy used by Filecoin</h3>
 
 <div style="display:flex; flex-direction:row; align-items: flex-start">
      <div style="flex:1;padding-right:10px;">
@@ -16,13 +15,14 @@
      </div>
 </div>
 <h2>Correlation</h2>
-## Correlation
-### Determine the correlation between the energy used to seal the Filecoin data and the price of its $FIL token
+<h3>Between the energy used to seal the filecoin data and the price of the $FIL token </h3>
+
 ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Price_EnergyUsedToSeal.png)
-### Determine the correlation between the capacity of storage added per day in the Filecoin network and the price of its $FIL token
+
+<h3>Between the capacity of storage added per day in the Filecoin network and the price of the $FIL token </h3>
 ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Price_StorageAddedPerDay.png)
 
-### Determine the correlation between the energy consumption rate of the Filecoin network and its $FIL token price
+<h3>Between the energy consumption rate of the Filecoin network and the $FIL token price </h3>
 ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Price_EnergyConsuptionRate.png)
 ### Analysis
 
