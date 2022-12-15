@@ -11,10 +11,11 @@
      <div style="flex:1;padding-right:10px;">
           <img src="images/totalEnergy_RenewableEnergy.png" width="200"/>
      </div>
-     <div style="flex:1;padding-left:10px;">
+     <div style="flex:2;padding-left:10px;">
           <img src="images/Share_RenewableEnergy.png" width="200"/>
      </div>
 </div>
+<h2>Correlation</h2>
 ## Correlation
 ### Determine the correlation between the energy used to seal the Filecoin data and the price of its $FIL token
 ![alt text](https://github.com/mgavillo/filecoin-ocean-analysis/blob/main/images/Price_EnergyUsedToSeal.png)
