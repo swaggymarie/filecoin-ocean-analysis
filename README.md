@@ -36,7 +36,6 @@
      </div>
 </div>
 
-
 <h3>Between the energy consumption rate of the Filecoin network and the $FIL token price </h3>
 <div style='display:flex; flex-direction: row'>
      <img src="images/Price_EnergyConsuptionRate.png" width="400"/>
