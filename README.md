@@ -7,7 +7,6 @@
      <div>This graph suggests the data storage capacity always increased since filecoin launched. The energy consumption rate was following the storage capacity in the first place but stoped evolving. This means that filecoin is getting more efficient to store data! </div>
 </div>
 
-
 <h3>Evolution of the share of renewable energy used by Filecoin</h3>
 
 <div style="display:flex; flex-direction:row; align-items: flex-start">
